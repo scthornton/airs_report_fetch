@@ -39,7 +39,7 @@ pip install requests python-dotenv
 
 1. **Clone or download the script**
    ```bash
-   curl -O https://raw.githubusercontent.com/airs_report_fetch/get_report.py
+   curl -O https://raw.githubusercontent.com/scthornton/airs_report_fetch/main/get_report.py
    ```
 
 2. **Set up environment variables**
@@ -117,7 +117,7 @@ Enter report ID(s) (comma-separated): R7b8ab596-cfac-0000-aaf7-1fecba5505d3
 
 ```bash
 # Palo Alto Networks AI Runtime Security Configuration
-PANW_AI_SEC_API_KEY=n36PY8mblqIpljRVinySNrp4bAUstchBwc5ht6I1Ti3xfned
+PANW_AI_SEC_API_KEY=your_api_key_here
 PANW_AI_SEC_PROFILE=my-security-profile
 PANW_AI_SEC_ENDPOINT=https://service.api.aisecurity.paloaltonetworks.com
 
@@ -239,8 +239,8 @@ graph LR
 
 ## 📚 API Documentation
 
-- [Palo Alto Networks AI Runtime Security API](https://pan.dev/prisma-airs/api/airuntimesecurity/)
-- [Use Cases and Examples](https://pan.dev/ai-runtime-security/api/usecases/)
+- [Palo Alto Networks AI Runtime Security API](https://pan.dev/prisma-airs/api/airuntimesecurity/airuntimesecurityapi)
+- [Use Cases and Examples](https://pan.dev/prisma-airs/api/airuntimesecurity/airuntimesecurityapi)
 - [Strata Cloud Manager Documentation](https://docs.paloaltonetworks.com/strata-cloud-manager)
 
 ## 🤝 Contributing
@@ -267,7 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for cybersecurity professionals**
 
-[Report Bug](https://github.com/airs_report_fetch/issues) 
+[Report Bug](https://github.com/scthornton/airs_report_fetch/issues) 
 
 </div>
 
